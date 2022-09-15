@@ -6,7 +6,7 @@
 
 先看一张来自msdn的说明，我认为很清晰。
 
-![ms文档的lambda](../images_for_md/cpp_base_images/cpp_lambda.png)
+![ms文档的lambda](../../assets/cpp_base_images/cpp_lambda.png)
 
 # cpp lambda的详细介绍和使用
 
@@ -278,7 +278,7 @@ int main(){
 
 现在我们再将此时的汇编代码和之前的对比，如下（左边是lambda、右边是自己定义的函数对象：
 
-![lambda-asm-diff.jpg](../images_for_md/cpp_base_images/lambda-asm-diff.jpg)
+![lambda-asm-diff.jpg](../../assets/cpp_base_images/lambda-asm-diff.jpg)
 
 可见，除了生成的类的名字不同，一个叫 `Add` 一个叫 `main::$_0` ，（其实这个名字完全不重要），其它的都一模一样。可以得出结论，lambda就是如假包换的函数对象，和自己手动写的函数对象完全一样。
 

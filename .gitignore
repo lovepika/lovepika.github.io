@@ -1,0 +1,84 @@
+# author tudou
+# 提交代码记得先clean一下，因为部分没有进行忽略
+
+# OS X
+.DS_Store
+
+# idea
+.idea/
+
+# vscode
+.vscode/
+
+# build
+*build-*
+build*
+
+# vs
+.vs/
+out/
+Debug/
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+# Local History for Visual Studio
+.localhistory/
+
+# clangd cache
+.cache/

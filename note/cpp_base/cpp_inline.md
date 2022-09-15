@@ -1,7 +1,7 @@
 
 > ref: 《cpp primer 5th》 和 cpp那些事
 
-![cpp_inline](../images_for_md/cpp_base_images/cpp_inline.png)
+![cpp_inline](../../assets/cpp_base_images/cpp_inline.png)
 
 # inline 关键字
 
