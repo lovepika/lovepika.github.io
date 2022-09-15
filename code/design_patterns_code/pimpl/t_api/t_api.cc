@@ -20,7 +20,7 @@ private:
 // 这里使用了现代make_unique语法，也可以直接new
 TApi::TApi() : impl_(std::make_unique<Implementation>()) {}
 
-// 实现！  注意！TApi的析构函数需要！
+// 实现！  注意！TApi的析构函数需要！// or TApi::~TApi() { }
 TApi::~TApi() = default;
 
 void TApi::SetPath(const std::string &path) { impl_->SetPath(path); }
