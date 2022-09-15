@@ -1,5 +1,8 @@
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-site.url:
-  Home: https://lovepika.github.io
+
+show_tudou_add_page: ["true"]
+github:
+  home_url: https://lovepika.github.io
+  # about_url:
