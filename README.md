@@ -29,7 +29,7 @@ _config.yml --用来生成网页的jekyll配置文件
 
 **设计模式和一些常用的设计手法**
 
-- [PIML设计手法](./note/design_patterns_cpp/cpp_pimp_design.md)
+- [PIMPL设计手法](./note/design_patterns_cpp/cpp_pimp_design.md)
 
 ## linux kernel
 
