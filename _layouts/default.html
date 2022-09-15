@@ -22,14 +22,14 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <div id="banner">
+      <div id="banner" style="width: 100%;">
         <span id="logo"></span>
 
         <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         <!-- change by tudou -->
         {% if site.show_tudou_add_page %}
           <div class="show_tudou_add_page">
-            <span> </span>
+            <span></span>
             <ul>
               <li><a href="{{ site.github.home_url }}" class="button">Home</a></li>
               <li><a href="{{ site.github.about_url }}" class="button">About</a></li>
@@ -42,7 +42,7 @@
       <nav>
         <ul></ul>
       </nav>
-      <section style="width: 890px;">
+      <section style="width: auto;">
         {{ content }}
 
       </section>
