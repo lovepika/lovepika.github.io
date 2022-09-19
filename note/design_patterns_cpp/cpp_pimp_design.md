@@ -154,7 +154,7 @@ c++规则，以下两种情况，delete pointer会有未定义行为
 
 由于unique_ptr检查，会在编译期直接拒绝 同理的还有boost::checked_delete
 
-进一步讨论，Fridge 和FridgeImpl的析构函数都是没定义的，编译器会自动定义并内联，在Fridge的编译单元，就已经见到了Fridge的析构了，但是见不到FridgeImpl的析构，**解决办法就是加上Fridge的析构声明，并把实现放到实现文件中，让Fridge和FridgeImpl的析构同时可见**  (直接在声明为default好像也没啥问题，可能是这些文章都是参考了cppreference吧)
+进一步讨论，Fridge 和FridgeImpl的析构函数都是没定义的，编译器会自动定义并内联，在Fridge的编译单元，就已经见到了Fridge的析构了，但是见不到FridgeImpl的析构，**解决办法就是加上Fridge的析构声明，并把实现放到实现文件中，让Fridge和FridgeImpl的析构同时可见** `也就是说Fridge的析构必须要有`  (直接在声明为default好像也没啥问题，可能是这些文章都是参考了cppreference吧)
 
 
 **改进代码**
