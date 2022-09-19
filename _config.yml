@@ -5,4 +5,4 @@ plugins:
 show_tudou_add_page: ["true"]
 github:
   home_url: https://lovepika.github.io
-  # about_url:
+  about_url: https://github.com/lovepika
