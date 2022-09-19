@@ -33,4 +33,4 @@ _config.yml --用来生成网页的jekyll配置文件
 
 ## linux kernel
 
-- [《深度探索Linux内核--VFS学习笔记](./note/linux_kernel/UnderstandingTheLinuxKernel/Chapter12-VFS.md)
+- [《深度探索Linux内核》--VFS学习笔记](./note/linux_kernel/UnderstandingTheLinuxKernel/Chapter12-VFS.md)
